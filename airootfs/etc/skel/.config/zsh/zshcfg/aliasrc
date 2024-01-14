@@ -43,9 +43,3 @@ alias \
 alias \
 	dots='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME' \
 	glfsforcerefs="git push origin --force 'refs/heads/*'"
-
-if [[ -f "$HOME/.local/bin/scripts/lfrun" ]]; then
-    alias lf="$HOME/.local/bin/scripts/lfrun"
-else
-    alias lf="/usr/bin/lfrun"
-fi

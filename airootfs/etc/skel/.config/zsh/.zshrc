@@ -115,3 +115,6 @@ export LESS_TERMCAP_md=$(tput bold; tput setaf 45)
 export LESS_TERMCAP_me=$(tput sgr0)
 
 powerline-daemon -q
+
+echo "Your dotfiles is not updated!! Please update dotfiles by using:"
+echo "phyup dots"

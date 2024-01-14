@@ -18,6 +18,7 @@
 # fi
 [[ -f "$HOME/.xsync" ]] && $HOME/.xsync || xrandr --auto
 
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/lib:$HOME/.config/phyos/pdwm"
 xrdb ~/.config/Xresources
 pOS-setbg &			# set the background, use this script to set your own background
 # Below sources configuration file to fetch picom
@@ -26,5 +27,4 @@ pOS-conky &
 dunst &			# dunst for notifications
 [[ -f /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 ]] && /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 unclutter &		# Remove mouse when idle
-dex -a # Start xdg autostart
 pOS-remaps &		# run the remaps script, switching caps/esc and more; check it for more info

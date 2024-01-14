@@ -31,6 +31,7 @@ edk2-shell
 efibootmgr
 espeakup
 ethtool
+exa
 exfatprogs
 f2fs-tools
 fakeroot
@@ -40,6 +41,7 @@ ffmpeg
 foot-terminfo
 fsarchiver
 fzf
+git
 gnu-netcat
 gpart
 gpm
@@ -67,7 +69,6 @@ lib32-v4l-utils
 libfido2
 libusb-compat
 libxss
-light
 linux
 linux-atm
 linux-firmware
@@ -213,7 +214,7 @@ pipewire-alsa
 pulsemixer
 
 plymouth-git
-phyOS-plymouth-cyanide-theme
+phyOS-plymouth-vortex-theme
 
 # login manager
 sddm
@@ -247,7 +248,7 @@ bluez-utils
 # installer
 #/* grub */
 phyOS-grub-xenlism-theme
-#/* os-prober */
+os-prober
 
 # nvidia firmware
 nvidia
@@ -258,7 +259,8 @@ s-tui
 
 # Calamares
 phyOS-cala-config
-phy-calamares
+phyOS-calamares
+kgpg
 
 # Keyring and list
 phyOS-keyring
@@ -280,7 +282,7 @@ phyOS-xmenu
 physettings
 
 cointop
-#lf-png
+lf-png
 i3lock-color
 betterlockscreen
 libnotify

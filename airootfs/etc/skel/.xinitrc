@@ -12,3 +12,4 @@
 . ~/.xprofile
 
 ssh-agent pdwm
+phyOS-welcome-app
