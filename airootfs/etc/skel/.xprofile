@@ -27,4 +27,5 @@ pOS-conky &
 dunst &			# dunst for notifications
 [[ -f /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 ]] && /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 unclutter &		# Remove mouse when idle
+phyOS-welcome-app
 pOS-remaps &		# run the remaps script, switching caps/esc and more; check it for more info
